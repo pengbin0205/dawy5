@@ -1,0 +1,81 @@
+<template>
+    <div id="wrap">
+        <div id="top_content">
+            <div id="header">
+                <div id="rightheader">
+                    <p>
+                        2009/11/20
+                        <br/>
+                    </p>
+                </div>
+                <div id="topheader">
+                    <h1 id="title">
+                        <a href="#">Main</a>
+                    </h1>
+                </div>
+                <div id="navigation">
+                </div>
+            </div>
+            <div id="content">
+                <p id="whereami">
+                </p>
+                <h1>
+                    add Emp info:
+                </h1>
+                <table cellpadding="0" cellspacing="0" border="0"
+                       class="form_table">
+                    <tr>
+                        <td valign="middle" align="right">
+                            name:
+                        </td>
+                        <td valign="middle" align="left">
+                            <input type="text" class="inputgri" name="name"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="middle" align="right">
+                            photo:
+                        </td>
+                        <td valign="middle" align="left">
+                            <input type="file" name="photo"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="middle" align="right">
+                            salary:
+                        </td>
+                        <td valign="middle" align="left">
+                            <input type="text" class="inputgri" name="salary"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="middle" align="right">
+                            age:
+                        </td>
+                        <td valign="middle" align="left">
+                            <input type="text" class="inputgri" name="age"/>
+                        </td>
+                    </tr>
+                </table>
+                <p>
+                    <input type="submit" class="button" value="Confirm"/>
+                </p>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="footer_bg">
+                ABC@126.com
+            </div>
+        </div>
+    </div>
+</template>
+
+<script>
+    export default {
+        name: "Add"
+    }
+</script>
+
+<style scoped>
+
+</style>
